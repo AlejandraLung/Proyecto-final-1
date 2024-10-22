@@ -1,0 +1,79 @@
+/* Aplicar la fuente Montserrat a todo el cuerpo */
+body {
+  font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+  margin: 0; /* Sin márgenes */
+  padding: 0; /* Sin padding */
+  background-color: #f8f9fa; /* Fondo claro */
+  display: flex; /* Usar Flexbox para la disposición */
+  flex-direction: column; /* Dirección de la columna */
+  min-height: 100vh; /* Mínima altura de la vista completa */
+}
+
+/* Estilo para el mensaje de éxito */
+.success-message {
+  background-color: #28a745; /* Color verde para éxito */
+  color: white; /* Texto blanco */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Centrar texto */
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 20px auto; /* Margen superior e inferior y auto para centrar */
+  font-size: 20px; /* Tamaño de fuente */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 600px; /* Ancho máximo para el mensaje */
+}
+
+/* Estilo para el botón de 'Volver a la página principal' */
+.back-button {
+  display: inline-block; /* Mostrar como bloque en línea */
+  padding: 12px 24px; /* Espaciado interno */
+  background-color: #343a40; /* Color oscuro */
+  background-color: #02172e; /* Color azul */
+  color: white; /* Texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 18px; /* Tamaño de fuente */
+  transition: background-color 0.3s ease, transform 0.2s; /* Transiciones suaves */
+  margin: 20px auto; /* Margen automático para centrar */
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+.back-button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+  transform: translateY(-2px); /* Eleva ligeramente el botón */
+}
+
+/* Efecto de enfoque para el botón */
+.back-button:focus {
+  outline: none; /* Eliminar contorno por defecto */
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Sombra azul al recibir foco */
+}
+
+/* Estilo del footer */
+footer {
+  background-color: #343a40; /* Color oscuro */
+  color: white; /* Texto blanco */
+  text-align: center; /* Centrar texto */
+  padding: 20px 0; /* Espaciado superior e inferior */
+  margin-top: auto; /* Asegurar que el footer esté en la parte inferior */
+  width: 100%; /* Ancho completo */
+  font-size: 14px; /* Tamaño de fuente */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Sombra superior */
+}
+
+/* Estilo para el texto del footer */
+footer p {
+  margin: 0; /* Sin márgenes */
+  font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+}
+
+/* Estilo para enlaces en el footer (si los hay) */
+footer a {
+  color: #02172e; /* Color azul para enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+
